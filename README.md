@@ -4,6 +4,7 @@ My coursework at the third year of studying
 char_rnn_torch (LSTM and GRU):
 usage: train_model.py
 [-h] -- help
+
 [-model TYPE_OF_MODEL] -- specify type of model: 0 is LSTM, 2 is GRU
 [-hsize SIZE_OF_HIDDEN_LAYER] -- size of the hidden layer
 [-lnum NUMBER_OF_LAYERS] -- number of layers in a stacked LSTM/GRU
