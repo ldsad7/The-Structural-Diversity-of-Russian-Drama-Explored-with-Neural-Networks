@@ -47,9 +47,9 @@ file -- which file to take as an input
 
 ### Example Usage:
 
-python sampling.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200
+python train_model.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200
 
-On colab: !python3 sampling.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200 -c 1
+On colab: !python3 train_model.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200 -c 1
 
 ## usage: sampling.py
 
