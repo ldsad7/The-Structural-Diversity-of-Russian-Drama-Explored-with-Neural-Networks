@@ -1,7 +1,7 @@
 # The-Structural-Diversity-of-Russian-Drama-Explored-with-Neural-Networks
 My coursework at the third year of studying
 
-char_rnn_torch (LSTM and GRU):
+**char_rnn_torch (LSTM and GRU)**:
 
 usage: train_model.py
 
@@ -71,7 +71,7 @@ python sampling.py model.model -t 0.4 -start "<speaker>" -gseql 100
 
 On colab: !python3 sampling.py model.model -c 1 -t 0.4 -start "<speaker>" -gseql 100
 
-Simple RNN
+**Simple RNN**
 
 usage: simple_char_rnn.py
 
@@ -101,7 +101,7 @@ Example Usage:
 
 python simple_char_rnn.py -model 0 -actfunc 1 -gseql 50
 
-html_to_xml_converter:
+**html_to_xml_converter**:
 
 usage: html_to_xml_converter.py
 
