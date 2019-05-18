@@ -45,7 +45,7 @@ My coursework at the third year of studying
 
 file -- which file to take as an input
 
-Example Usage:
+### Example Usage:
 
 python sampling.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200
 
@@ -65,7 +65,7 @@ On colab: !python3 sampling.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200 -c 1
 
 file -- model file
 
-Example Usage:
+### Example Usage:
 
 python sampling.py model.model -t 0.4 -start "<speaker>" -gseql 100
 
@@ -97,7 +97,7 @@ On colab: !python3 sampling.py model.model -c 1 -t 0.4 -start "<speaker>" -gseql
 
 file -- which file to take as an input
 
-Example Usage:
+### Example Usage:
 
 python simple_char_rnn.py -model 0 -actfunc 1 -gseql 50
 
@@ -109,7 +109,7 @@ python simple_char_rnn.py -model 0 -actfunc 1 -gseql 50
 
 url -- which html page to convert to xml
 
-Example Usage:
+### Example Usage:
 
 python html_to_xml_converter.py http://az.lib.ru/o/ostrowskij_a_n/text_0066.shtml
 
