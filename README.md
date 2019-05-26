@@ -3,6 +3,8 @@ My coursework at the third year of studying
 
 # char_rnn_torch (LSTM and GRU):
 
+### char-based rnn model (realised via numpy)
+
 ## usage: train_model.py
 
 [-h] -- help
