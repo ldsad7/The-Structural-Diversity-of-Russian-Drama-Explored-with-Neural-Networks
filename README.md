@@ -3,7 +3,7 @@ My coursework at the third year of studying
 
 # char_rnn_torch (LSTM and GRU):
 
-### char-based rnn model (realised via numpy)
+char-based (B)LSTM/(B)GRU models (realised via pytorch)
 
 ## usage: train_model.py
 
@@ -75,6 +75,8 @@ On colab: !python3 sampling.py model.model -c 1 -t 0.4 -start "<speaker>" -gseql
 
 # Simple RNN
 
+char-based and word-based RNN models (realised via numpy)
+
 ## usage: simple_char_rnn.py
 
 [-h] -- help
@@ -104,6 +106,8 @@ file -- which file to take as an input
 python simple_char_rnn.py -model 0 -actfunc 1 -gseql 50
 
 # html_to_xml_converter:
+
+converter of html page to xml (rules-based approach)
 
 ## usage: html_to_xml_converter.py
 
