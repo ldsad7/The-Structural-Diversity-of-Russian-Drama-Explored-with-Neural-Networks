@@ -69,9 +69,9 @@ file -- model file
 
 ### Example Usage:
 
-python sampling.py model.model -t 0.4 -start "<speaker>" -gseql 100
+python sampling.py model.model -t 0.4 -start "\<speaker>" -gseql 100
 
-On colab: !python3 sampling.py model.model -c 1 -t 0.4 -start "<speaker>" -gseql 100
+On colab: !python3 sampling.py model.model -c 1 -t 0.4 -start "\<speaker>" -gseql 100
 
 # Simple RNN
 
