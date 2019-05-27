@@ -49,9 +49,9 @@ file -- which file to take as an input
 
 ### Example Usage:
 
-python train_model.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200
+cd char_rnn_torch && python train_model.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200
 
-On colab: !python3 train_model.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200 -c 1
+On colab: cd char_rnn_torch && !python3 train_model.py name.xml -o 2 -d 0.1 -iternum 100 -hsize 200 -c 1
 
 ## usage: sampling.py
 
@@ -69,9 +69,9 @@ file -- model file
 
 ### Example Usage:
 
-python sampling.py model.model -t 0.4 -start "\<speaker>" -gseql 100
+cd char_rnn_torch && python sampling.py model.model -t 0.4 -start "\<speaker>" -gseql 100
 
-On colab: !python3 sampling.py model.model -c 1 -t 0.4 -start "\<speaker>" -gseql 100
+On colab: cd char_rnn_torch && !python3 sampling.py model.model -c 1 -t 0.4 -start "\<speaker>" -gseql 100
 
 # Simple RNN
 
