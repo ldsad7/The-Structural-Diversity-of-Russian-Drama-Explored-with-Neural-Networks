@@ -117,8 +117,8 @@ url -- which html page to convert to xml
 
 ### Example Usage:
 
-python html_to_xml_converter.py http://az.lib.ru/o/ostrowskij_a_n/text_0066.shtml
+cd html_to_xml_converter && python html_to_xml_converter.py http://az.lib.ru/o/ostrowskij_a_n/text_0066.shtml
 
-python html_to_xml_converter.py http://az.lib.ru/o/ostrowskij_a_n/text_0068.shtml
+cd html_to_xml_converter && python html_to_xml_converter.py http://az.lib.ru/o/ostrowskij_a_n/text_0068.shtml
 
-python html_to_xml_converter.py http://az.lib.ru/o/ostrowskij_a_n/text_0102.shtml
+cd html_to_xml_converter && python html_to_xml_converter.py http://az.lib.ru/o/ostrowskij_a_n/text_0102.shtml
