@@ -103,7 +103,7 @@ file -- which file to take as an input
 
 ### Example Usage:
 
-python simple_char_rnn.py -model 0 -actfunc 1 -gseql 50
+cd simple_char_rnn_numpy && python simple_char_rnn.py -model 0 -actfunc 1 -gseql 50
 
 # html_to_xml_converter:
 
