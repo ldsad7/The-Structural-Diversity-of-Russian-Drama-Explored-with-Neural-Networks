@@ -1,4 +1,4 @@
-# The-Structural-Diversity-of-Russian-Drama-Explored-with-Neural-Networks
+# The Structural Diversity of Russian Drama Explored with Neural Networks
 My coursework at the third year of studying
 
 # char_rnn_torch (LSTM and GRU):
